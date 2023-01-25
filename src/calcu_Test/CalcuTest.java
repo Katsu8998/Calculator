@@ -9,7 +9,7 @@ import calcu.calcu;
 public class CalcuTest {
 	//入力数が4以下の場合
 	@Test
-	public void calcuAdd() {
+	public void  calcIntegerTest01() {
 		int input1 = 1;
 		int input2 = 1;
 		String[] input3 = { "1", "+", "1" };
@@ -20,7 +20,7 @@ public class CalcuTest {
 	}
 
 	@Test
-	public void calcuSubstract() {
+	public void calcIntegerTest02() {
 		int input1 = 1;
 		int input2 = 1;
 		String[] input3 = { "1", "-", "1" };
@@ -31,7 +31,7 @@ public class CalcuTest {
 	}
 
 	@Test
-	public void calcumultuply() {
+	public void calcIntegerTest03() {
 		int input1 = 1;
 		int input2 = 1;
 		String[] input3 = { "1", "*", "1" };
@@ -42,7 +42,7 @@ public class CalcuTest {
 	}
 
 	@Test
-	public void calcudivide() {
+	public void calcIntegerTest04() {
 		int input1 = 10;
 		int input2 = 2;
 		String[] input3 = { "10", "/", "2" };
@@ -53,7 +53,7 @@ public class CalcuTest {
 	}
 
 	@Test
-	public void calcudivision() {
+	public void calcIntegerTest05() {
 		int input1 = 3;
 		int input2 = 2;
 		String[] input3 = { "3", "%", "2" };
@@ -64,7 +64,7 @@ public class CalcuTest {
 	}
 
 	@Test
-	public void calcuexpone() {
+	public void calcIntegerTest06() {
 		int input1 = 3;
 		int input2 = 2;
 		String[] input3 = { "3", "^", "2" };
