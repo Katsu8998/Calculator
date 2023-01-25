@@ -84,7 +84,7 @@ public class CalcuTest {
 
 	//入力数が4より大きい場合、配列のサイズを変更
 	@Test
-	public void Array() {
+	public void tempArrayTest() {
 		String[] input = { "1", "+", "1", "+" };
 		String[] result = calcu.tempArray(input);
 		String[] expected = { "1", "+", "1", "+" };
