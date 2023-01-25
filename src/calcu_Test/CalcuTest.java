@@ -75,7 +75,7 @@ public class CalcuTest {
 	}
 
 	@Test
-	public void calcroot() {
+	public void calc2Test() {
 		double input1 = 3.0;
 		String[] input2 = { "3", "r", "", "" };
 		double expected = 1.7320508075688772;
