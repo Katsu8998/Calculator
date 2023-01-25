@@ -93,7 +93,7 @@ public class CalcuTest {
 
 	//入力数が5の場合
 	@Test
-	public void calcuAdd2() {
+	public void calc4Test01() {
 		int input1 = 1;
 		int middleAns = 2;
 		String[] input = { "1", "+", "1", "+", "1" };
@@ -103,7 +103,7 @@ public class CalcuTest {
 	}
 
 	@Test
-	public void calcuSubstract2() {
+	public void calc4Test02() {
 		int input1 = 1;
 		int middleAns = 2;
 		String[] input = { "1", "+", "1", "-", "1" };
@@ -113,7 +113,7 @@ public class CalcuTest {
 	}
 
 	@Test
-	public void calcuMultiply2() {
+	public void calc4Test03() {
 		int input1 = 2;
 		int middleAns = 2;
 		String[] input = { "1", "+", "1", "*", "2" };
@@ -123,7 +123,7 @@ public class CalcuTest {
 	}
 
 	@Test
-	public void calcudivide2() {
+	public void calc4Test04() {
 		int input1 = 2;
 		int middleAns = 2;
 		String[] input = { "1", "+", "1", "/", "2" };
@@ -133,7 +133,7 @@ public class CalcuTest {
 	}
 
 	@Test
-	public void calcudivision2() {
+	public void calc4Test05() {
 		int input1 = 2;
 		int middleAns = 3;
 		String[] input = { "2", "+", "1", "%", "2" };
@@ -143,7 +143,7 @@ public class CalcuTest {
 	}
 
 	@Test
-	public void calcuexpone2() {
+	public void calc4Test06() {
 		int input1 = 2;
 		int middleAns = 2;
 		String[] input = { "1", "+", "1", "^", "2" };
